@@ -1,4 +1,5 @@
-<img width="2880" height="1628" alt="image" src="https://github.com/user-attachments/assets/16c837e8-4258-4da6-aae1-f16bfa397cc2" />````md
+<img width="2880" height="1628" alt="image" src="https://github.com/user-attachments/assets/16c837e8-4258-4da6-aae1-f16bfa397cc2" />
+
 # CreditFlow AI – Smart Finance Credit Follow-Up Email Agent
 
 #  Project Overview
@@ -9,7 +10,6 @@ The system intelligently analyzes pending invoice records, calculates overdue du
 
 This project demonstrates the application of **Agentic AI + Large Language Models (LLMs)** in solving real-world finance automation problems.
 
----
 
 # Problem Statement
 
@@ -34,7 +34,6 @@ In organizations, finance teams often spend a lot of time manually:
  Delayed cash flow
 
 To solve this problem, **CreditFlow AI** automates the complete follow-up workflow using AI.
-
 
 
 # Project Objective
@@ -321,12 +320,9 @@ Tone: Polite but Firm
 
 (<img width="2880" height="1498" alt="image" src="https://github.com/user-attachments/assets/5acedf34-70e5-4ced-8c0b-feb82897dd4d" />
 )
-(<img width="2878" height="1586" alt="image" src="https://github.com/user-attachments/assets/b1a1da60-f767-4636-9dba-9eff1d976ac8" />
-)
-(<img width="2858" height="1630" alt="image" src="https://github.com/user-attachments/assets/aaa23450-94aa-4188-be2d-5f4668230066" />
-)
-(<img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/73d3a00e-1d6d-4374-b68e-641dc03cd1b6" />
-)
+
+
+
 ```md
 ![Dashboard](images/dashboard.png)
 ```
@@ -335,25 +331,26 @@ Tone: Polite but Firm
 
 # Email Generation
 
-(Add Screenshot Here)
+(<img width="2878" height="1586" alt="image" src="https://github.com/user-attachments/assets/b1a1da60-f767-4636-9dba-9eff1d976ac8" />
+)
+
+(<img width="2858" height="1630" alt="image" src="https://github.com/user-attachments/assets/aaa23450-94aa-4188-be2d-5f4668230066" />
+)
 
 ```md
 ![Generated Email](images/email_generation.png)
 ```
 
----
+# Audit Trail
 
-## Audit Trail
-
-(Add Screenshot Here)
+(<img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/73d3a00e-1d6d-4374-b68e-641dc03cd1b6" />
+)
 
 ```md
 ![Audit Trail](images/audit_trail.png)
 ```
 
----
-
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 Finance-Credit-Follow-Up-Email-Agent/
@@ -365,28 +362,23 @@ Finance-Credit-Follow-Up-Email-Agent/
 │── images/
 ```
 
----
 
-# 🛠️ Installation & Setup
+#  Installation & Setup
 
-## Step 1: Clone Repository
+# Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/sonam0-0/Finance-Credit-Follow-Up-Email-Agent.git
 cd Finance-Credit-Follow-Up-Email-Agent
 ```
 
----
-
-## Step 2: Install Dependencies
+# Step 2: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Step 3: Create Environment File
+# Step 3: Create Environment File
 
 Create `.env`
 
@@ -394,53 +386,20 @@ Create `.env`
 GROQ_API_KEY=your_api_key_here
 ```
 
----
-
-## Step 4: Run Application
+# Step 4: Run Application
 
 ```bash
 streamlit run main.py
 ```
 
----
-
-# 📊 Sample Dataset
+#  Sample Dataset
 
 ```csv
 invoice_no,client_name,amount,due_date,contact_email,followup_count,payment_link
 INV-001,Rajesh Kapoor,45000,2026-05-05,rajesh@example.com,0,https://pay.company.com/INV-001
 INV-002,Amit Sharma,32000,2026-04-30,amit@example.com,1,https://pay.company.com/INV-002
 ```
-
----
-
-# 📤 Sample Output
-
-### Generated Status
-
-```text
-Dry Run – Email Generated Only
-Escalated – No Email Sent
-```
-
-### Sample Generated Email
-
-Subject:
-Payment Reminder – Invoice INV-001
-
-Body:
-Dear Rajesh Kapoor,
-
-This is a reminder regarding Invoice INV-001 of ₹45,000 which is overdue by 10 days.
-
-Please complete payment using the link below.
-
-Regards,
-Finance Team
-
----
-
-# ⚠️ Challenges Faced
+#  Challenges Faced
 
 During development:
 
@@ -450,9 +409,7 @@ During development:
 * LLM consistency
 * Audit trail implementation
 
----
-
-# 🔮 Future Improvements
+# Future Improvements
 
 Planned enhancements:
 
@@ -462,34 +419,21 @@ Planned enhancements:
 * Smart payment analytics
 * Risk scoring system
 
----
-
-# 🎯 Conclusion
+# Conclusion
 
 CreditFlow AI demonstrates how **Agentic AI and LLMs** can automate real-world finance operations.
 
 The system successfully:
 
-✅ Detects overdue invoices
+Detects overdue invoices
 
-✅ Generates personalized payment reminders
+Generates personalized payment reminders
 
-✅ Maintains professional communication
+Maintains professional communication
 
-✅ Logs actions for auditing
+Logs actions for auditing
 
-✅ Reduces manual effort
+Reduces manual effort
 
 This project showcases the practical use of AI in business automation.
 
----
-
-# 👨‍💻 Author
-
-### **Sonam Yadav**
-
-**B.Tech – Artificial Intelligence & Machine Learning**
-**Bennett University**
-
-```
-```
