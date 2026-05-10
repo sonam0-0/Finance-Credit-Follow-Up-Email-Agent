@@ -1,21 +1,15 @@
 ````md
-# 💰 CreditFlow AI – Smart Finance Credit Follow-Up Email Agent
+# CreditFlow AI – Smart Finance Credit Follow-Up Email Agent
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
-  <img src="https://img.shields.io/badge/Streamlit-Frontend-red.svg" />
-  <img src="https://img.shields.io/badge/LLM-Llama%203.1%208B-green.svg" />
-  <img src="https://img.shields.io/badge/Groq-API-orange.svg" />
-  <img src="https://img.shields.io/badge/SQLite-Database-lightgrey.svg" />
-</p>
 
----
 
-# 📌 Project Overview
 
-**CreditFlow AI** is an **AI-powered Finance Credit Follow-Up Email Agent** designed to automate payment reminder workflows for overdue invoices.
 
-The system intelligently analyzes pending invoice records, calculates overdue durations, selects appropriate communication tones, generates **personalized payment reminder emails using an LLM**, and maintains a complete **audit trail** for transparency.
+#  Project Overview
+
+*CreditFlow AI** is an **AI-powered Finance Credit Follow-Up Email Agent** designed to automate payment reminder workflows for overdue invoices.
+
+The system intelligently analyzes pending invoice records, calculates overdue durations, selects appropriate communication tones, generates **personalized payment reminder emails using an LLM*, and maintains a complete **audit trail* for transparency.
 
 This project demonstrates the application of **Agentic AI + Large Language Models (LLMs)** in solving real-world finance automation problems.
 
