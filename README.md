@@ -338,9 +338,7 @@ Tone: Polite but Firm
 
 )
 
-(<img width="2866" height="1676" alt="image" src="https://github.com/user-attachments/assets/0fa94010-6ddc-4354-84d1-e7ed331f77c7" />
 
-)
 
 ```md
 ![Generated Email](images/email_generation.png)
