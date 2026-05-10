@@ -396,8 +396,8 @@ streamlit run main.py
 
 ```csv
 invoice_no,client_name,amount,due_date,contact_email,followup_count,payment_link
-INV-001,Rajesh Kapoor,45000,2026-05-05,rajesh@example.com,0,https://pay.company.com/INV-001
-INV-002,Amit Sharma,32000,2026-04-30,amit@example.com,1,https://pay.company.com/INV-002
+INV-001,Ram pandey,45000,2026-05-05,ram@example.com,0,https://pay.company.com/INV-001
+INV-002,Amir patel,32000,2026-04-30,amir@example.com,1,https://pay.company.com/INV-002
 ```
 #  Challenges Faced
 
