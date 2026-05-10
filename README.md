@@ -1,4 +1,5 @@
-<img width="2880" height="1628" alt="image" src="https://github.com/user-attachments/assets/16c837e8-4258-4da6-aae1-f16bfa397cc2" />
+<img width="2874" height="1672" alt="image" src="https://github.com/user-attachments/assets/6a905bba-7fd0-422a-a413-e76433d4a94f" />
+
 
 # CreditFlow AI – Smart Finance Credit Follow-Up Email Agent
 
@@ -318,10 +319,12 @@ Tone: Polite but Firm
 
 # Dashboard
 
-(<img width="2880" height="1498" alt="image" src="https://github.com/user-attachments/assets/5acedf34-70e5-4ced-8c0b-feb82897dd4d" />
+(<img width="2874" height="1672" alt="image" src="https://github.com/user-attachments/assets/6b52799a-3877-4b60-8609-3e2789e7b4a4" />
+
 )
 
-
+(<img width="2880" height="1678" alt="image" src="https://github.com/user-attachments/assets/1a467ac3-574b-4b12-865c-d5ad97a8c717" />
+)
 
 ```md
 ![Dashboard](images/dashboard.png)
@@ -331,10 +334,12 @@ Tone: Polite but Firm
 
 # Email Generation
 
-(<img width="2878" height="1586" alt="image" src="https://github.com/user-attachments/assets/b1a1da60-f767-4636-9dba-9eff1d976ac8" />
+(<img width="2872" height="1680" alt="image" src="https://github.com/user-attachments/assets/27e13a15-e95c-4df9-8bb2-b93a094bf3dc" />
+
 )
 
-(<img width="2858" height="1630" alt="image" src="https://github.com/user-attachments/assets/aaa23450-94aa-4188-be2d-5f4668230066" />
+(<img width="2866" height="1676" alt="image" src="https://github.com/user-attachments/assets/0fa94010-6ddc-4354-84d1-e7ed331f77c7" />
+
 )
 
 ```md
@@ -343,7 +348,8 @@ Tone: Polite but Firm
 
 # Audit Trail
 
-(<img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/73d3a00e-1d6d-4374-b68e-641dc03cd1b6" />
+(<img width="2880" height="1680" alt="image" src="https://github.com/user-attachments/assets/22f4aae7-7b8a-4479-91ac-18061bb2d88b" />
+
 )
 
 ```md
