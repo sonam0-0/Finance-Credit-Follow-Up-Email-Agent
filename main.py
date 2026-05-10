@@ -387,13 +387,13 @@ def run_agent_workflow(df):
 
 st.set_page_config(
     page_title="CreditFlow AI",
-    page_icon="💰",
+    
     layout="wide"
 )
 
 init_db()
 
-st.title("💰 CreditFlow AI")
+st.title(" CreditFlow AI")
 st.subheader("Finance Credit Follow-Up Email Agent")
 
 st.info(
@@ -433,7 +433,7 @@ if uploaded_file is not None:
         df["tone"] = df["days_overdue"].apply(lambda x: get_stage_and_tone(x)[1])
         df["action"] = df["days_overdue"].apply(lambda x: get_stage_and_tone(x)[2])
 
-        st.subheader("📊 Invoice Dashboard")
+        st.subheader(" Invoice Dashboard")
 
         col1, col2, col3, col4 = st.columns(4)
 
@@ -444,7 +444,7 @@ if uploaded_file is not None:
 
         st.dataframe(df)
 
-        st.subheader("🤖 Run Agent")
+        st.subheader(" Run Agent")
 
         if st.button("Generate Follow-Up Emails"):
             result_df = run_agent_workflow(df)
@@ -475,7 +475,7 @@ if uploaded_file is not None:
                     mime="text/csv"
                 )
 
-st.subheader("🧾 Audit Trail")
+st.subheader(" Audit Trail")
 
 logs = get_audit_logs()
 
