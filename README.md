@@ -1,74 +1,67 @@
-````md
+<img width="2880" height="1628" alt="image" src="https://github.com/user-attachments/assets/16c837e8-4258-4da6-aae1-f16bfa397cc2" />````md
 # CreditFlow AI – Smart Finance Credit Follow-Up Email Agent
-
-
-
-
 
 #  Project Overview
 
-*CreditFlow AI** is an **AI-powered Finance Credit Follow-Up Email Agent** designed to automate payment reminder workflows for overdue invoices.
+CreditFlow AI is an AI-powered Finance Credit Follow-Up Email Agent** designed to automate payment reminder workflows for overdue invoices.
 
-The system intelligently analyzes pending invoice records, calculates overdue durations, selects appropriate communication tones, generates **personalized payment reminder emails using an LLM*, and maintains a complete **audit trail* for transparency.
+The system intelligently analyzes pending invoice records, calculates overdue durations, selects appropriate communication tones, generates **personalized payment reminder emails using an LLM, and maintains a complete **audit trail for transparency.
 
 This project demonstrates the application of **Agentic AI + Large Language Models (LLMs)** in solving real-world finance automation problems.
 
 ---
 
-# 🚨 Problem Statement
+# Problem Statement
 
 In organizations, finance teams often spend a lot of time manually:
 
-- Tracking overdue invoices
-- Sending repetitive payment reminders
-- Following up with customers multiple times
-- Maintaining professional communication
-- Managing escalations for long overdue payments
+ Tracking overdue invoices
+ Sending repetitive payment reminders
+ Following up with customers multiple times
+ Maintaining professional communication
+ Managing escalations for long overdue payments
 
-### Problems with Manual Process
+# Problems with Manual Process
 
-❌ Time-consuming and repetitive work
+ Time-consuming and repetitive work
 
-❌ Inconsistent email tone
+ Inconsistent email tone
 
-❌ Missed follow-ups
+ Missed follow-ups
 
-❌ Lack of tracking and auditing
+ Lack of tracking and auditing
 
-❌ Delayed cash flow
+ Delayed cash flow
 
 To solve this problem, **CreditFlow AI** automates the complete follow-up workflow using AI.
 
----
 
-# 🎯 Project Objective
 
-The objective of this project is to build an **AI Finance Assistant Agent** that can:
+# Project Objective
 
-✅ Read pending invoice records
+The objective of this project is to build an AI Finance Assistant Agent that can:
 
-✅ Detect overdue payments
+ Read pending invoice records
 
-✅ Decide reminder tone dynamically
+ Detect overdue payments
 
-✅ Generate personalized payment emails
+ Decide reminder tone dynamically
 
-✅ Simulate email sending safely
+ Generate personalized payment emails
 
-✅ Maintain audit logs
+ Simulate email sending safely
+ Maintain audit logs
 
-✅ Escalate high-risk overdue invoices
+ Escalate high-risk overdue invoices
 
----
+# Key Features
 
-# ✨ Key Features
-
-## 📂 1. Data Ingestion
+# 1. Data Ingestion
 
 The system supports:
 
-- CSV files
-- Excel files (.xlsx)
+CSV files
+Excel files (.xlsx)
 
 Accepted fields:
 
@@ -84,7 +77,7 @@ Accepted fields:
 
 ---
 
-## 📅 2. Overdue Detection
+#2. Overdue Detection
 
 The system automatically calculates:
 
@@ -96,7 +89,7 @@ This helps determine whether a reminder should be sent.
 
 ---
 
-## 🎭 3. Tone Escalation Engine
+# 3. Tone Escalation Engine
 
 Email tone changes automatically depending on overdue duration.
 
@@ -108,7 +101,7 @@ Email tone changes automatically depending on overdue duration.
 | 22–30 Days   | Stern & Urgent       | Final warning                  |
 | 30+ Days     | Legal/Finance Review | Escalation                     |
 
-### Why this matters?
+# Why this matters?
 
 It ensures:
 
@@ -116,9 +109,7 @@ It ensures:
 * Reduced customer friction
 * Business-friendly payment recovery
 
----
-
-## 🤖 4. AI-Powered Email Generation
+# 4. AI-Powered Email Generation
 
 The system uses an **LLM** to generate personalized follow-up emails.
 
@@ -133,23 +124,21 @@ Each generated email includes:
 
 This prevents generic communication and improves professionalism.
 
----
 
-## 📧 5. Dry Run / Mock Send Mode
+
+# 5. Dry Run / Mock Send Mode
 
 To ensure safe testing:
 
-✅ Emails are generated
+ Emails are generated
 
-✅ Emails are previewed
+ Emails are previewed
 
-❌ No actual emails are sent
+ No actual emails are sent
 
 This avoids accidental communication with real clients during development.
 
----
-
-## 🧾 6. Audit Trail Logging
+# 6. Audit Trail Logging
 
 Every activity is stored in SQLite including:
 
@@ -162,9 +151,7 @@ Every activity is stored in SQLite including:
 
 This improves traceability and compliance.
 
----
-
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
 CSV / Excel Upload
@@ -186,11 +173,9 @@ Audit Logger Agent
 Dashboard + Reports
 ```
 
----
+# Agent Framework
 
-# 🧠 Agent Framework
-
-## Framework Used
+# Framework Used
 
 **Custom Multi-Agent Workflow Architecture**
 
@@ -198,11 +183,11 @@ This project follows an **Agentic Workflow**, where different agents perform spe
 
 ### Agent Responsibilities
 
-### 1️⃣ Data Ingestion Agent
+# 1. Data Ingestion Agent
 
 Reads invoice records from CSV/Excel files.
 
-### 2️⃣ Validation Agent
+# 2. Validation Agent
 
 Checks:
 
@@ -210,59 +195,55 @@ Checks:
 * Invalid email formats
 * Unsafe inputs
 
-### 3️⃣ Overdue Detection Agent
+# 3. Overdue Detection Agent
 
 Calculates overdue duration.
 
-### 4️⃣ Tone Escalation Agent
+# 4. Tone Escalation Agent
 
 Selects communication tone.
 
-### 5️⃣ Email Generation Agent
+# 5. Email Generation Agent
 
 Uses LLM for email generation.
 
-### 6️⃣ Escalation Agent
+# 6. Escalation Agent
 
 Flags invoices overdue >30 days.
 
-### 7️⃣ Audit Logger Agent
+# 7. Audit Logger Agent
 
 Stores logs in SQLite.
 
----
+# LLM Chosen
 
-# 🤖 LLM Chosen
+# Model Used
 
-## Model Used
+# **Llama 3.1 8B Instant**
 
-### **Llama 3.1 8B Instant**
-
-### Provider
+# Provider
 
 **Groq API**
 
----
-
-## Why this model?
+# Why this model?
 
 The model was selected because:
 
-✅ Fast response time
+ Fast response time
 
-✅ Free and cost-effective
+ Free and cost-effective
 
-✅ Professional email generation
+ Professional email generation
 
-✅ Low latency
+ Low latency
 
-✅ Easy Python integration
+ Easy Python integration
 
-✅ Suitable for real-time applications
+ Suitable for real-time applications
 
 ---
 
-## Why not alternatives?
+# Why not alternatives?
 
 | Model  | Reason               |
 | ------ | -------------------- |
@@ -272,11 +253,11 @@ The model was selected because:
 
 ---
 
-# 📝 Prompt Design
+#  Prompt Design
 
 The prompt is carefully designed to reduce hallucinations and ensure consistency.
 
-## Prompt Strategy
+# Prompt Strategy
 
 The model is instructed to:
 
@@ -286,9 +267,9 @@ The model is instructed to:
 * Include all required invoice details
 * Escalate high overdue cases
 
----
 
-## Example Prompt
+
+# Example Prompt
 
 ```text
 Generate a professional payment reminder email.
@@ -306,21 +287,8 @@ Days Overdue: 10
 Tone: Polite but Firm
 ```
 
----
 
-## Guardrails Applied
-
-✅ Structured output
-
-✅ Controlled prompting
-
-✅ Input sanitization
-
-✅ Reliable response format
-
----
-
-# 🔐 Security Risk Mitigation
+#  Security Risk Mitigation
 
 | Risk                 | Mitigation            |
 | -------------------- | --------------------- |
@@ -331,7 +299,7 @@ Tone: Polite but Firm
 | Unauthorized Sending | Dry-run mode          |
 | PII Exposure         | Local SQLite storage  |
 
----
+
 
 # ⚙️ Tech Stack
 
@@ -346,21 +314,26 @@ Tone: Polite but Firm
 | Config          | python-dotenv        |
 | File Support    | CSV / Excel          |
 
----
 
-# 📸 Project Screenshots
+# Project Screenshots
 
-## Dashboard
+# Dashboard
 
-(Add Screenshot Here)
-
+(<img width="2880" height="1498" alt="image" src="https://github.com/user-attachments/assets/5acedf34-70e5-4ced-8c0b-feb82897dd4d" />
+)
+(<img width="2878" height="1586" alt="image" src="https://github.com/user-attachments/assets/b1a1da60-f767-4636-9dba-9eff1d976ac8" />
+)
+(<img width="2858" height="1630" alt="image" src="https://github.com/user-attachments/assets/aaa23450-94aa-4188-be2d-5f4668230066" />
+)
+(<img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/73d3a00e-1d6d-4374-b68e-641dc03cd1b6" />
+)
 ```md
 ![Dashboard](images/dashboard.png)
 ```
 
 ---
 
-## Email Generation
+# Email Generation
 
 (Add Screenshot Here)
 
