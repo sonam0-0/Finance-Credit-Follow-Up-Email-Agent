@@ -1,0 +1,6 @@
+invoice_no,client_name,amount,due_date,contact_email,followup_count,payment_link
+INV-001,Rajesh Kapoor,45000,2026-05-05,rajesh@example.com,0,https://pay.company.com/INV-001
+INV-002,Amit Sharma,32000,2026-04-30,amit@example.com,1,https://pay.company.com/INV-002
+INV-003,Neha Verma,18000,2026-04-22,neha@example.com,2,https://pay.company.com/INV-003
+INV-004,Priya Singh,70000,2026-04-10,priya@example.com,3,https://pay.company.com/INV-004
+INV-005,Karan Mehta,95000,2026-03-25,karan@example.com,4,https://pay.company.com/INV-005
