@@ -319,12 +319,9 @@ Tone: Polite but Firm
 
 # Dashboard
 
-(<img width="2874" height="1672" alt="image" src="https://github.com/user-attachments/assets/6b52799a-3877-4b60-8609-3e2789e7b4a4" />
+<img width="2874" height="1672" alt="image" src="https://github.com/user-attachments/assets/6b52799a-3877-4b60-8609-3e2789e7b4a4" />
 
-)
-
-(<img width="2880" height="1678" alt="image" src="https://github.com/user-attachments/assets/1a467ac3-574b-4b12-865c-d5ad97a8c717" />
-)
+<img width="2880" height="1678" alt="image" src="https://github.com/user-attachments/assets/1a467ac3-574b-4b12-865c-d5ad97a8c717" />
 
 ```md
 ![Dashboard](images/dashboard.png)
@@ -334,11 +331,7 @@ Tone: Polite but Firm
 
 # Email Generation
 
-(<img width="2872" height="1680" alt="image" src="https://github.com/user-attachments/assets/27e13a15-e95c-4df9-8bb2-b93a094bf3dc" />
-
-)
-
-
+<img width="2872" height="1680" alt="image" src="https://github.com/user-attachments/assets/27e13a15-e95c-4df9-8bb2-b93a094bf3dc" />
 
 ```md
 ![Generated Email](images/email_generation.png)
@@ -346,9 +339,7 @@ Tone: Polite but Firm
 
 # Audit Trail
 
-(<img width="2880" height="1680" alt="image" src="https://github.com/user-attachments/assets/22f4aae7-7b8a-4479-91ac-18061bb2d88b" />
-
-)
+<img width="2880" height="1680" alt="image" src="https://github.com/user-attachments/assets/22f4aae7-7b8a-4479-91ac-18061bb2d88b" />
 
 ```md
 ![Audit Trail](images/audit_trail.png)
