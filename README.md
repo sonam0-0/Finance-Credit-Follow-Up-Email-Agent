@@ -321,6 +321,8 @@ Tone: Polite but Firm
 
 <img width="2874" height="1672" alt="image" src="https://github.com/user-attachments/assets/6b52799a-3877-4b60-8609-3e2789e7b4a4" />
 
+
+
 <img width="2880" height="1678" alt="image" src="https://github.com/user-attachments/assets/1a467ac3-574b-4b12-865c-d5ad97a8c717" />
 
 ```md
