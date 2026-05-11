@@ -373,7 +373,6 @@ Finance-Credit-Follow-Up-Email-Agent/
 
 ```bash
 git clone https://github.com/sonam0-0/Finance-Credit-Follow-Up-Email-Agent.git
-cd Finance-Credit-Follow-Up-Email-Agent
 ```
 
 # Step 2: Install Dependencies
